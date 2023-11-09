@@ -4,7 +4,6 @@ body{
     margin: 0;
     padding: 0;
     color: rgb(48, 22, 6);
-    
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
@@ -12,7 +11,6 @@ body{
 h1, h2{
     font-weight: 900;
     color: black;
-    
     
 }
 
@@ -41,9 +39,8 @@ section.modulo p{
     margin-bottom: 30px;
     text-align: justify;
     font-size: 1.5em;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Young Serif', serif;
+    font-family: 'Hind', sans-serif;
+    
 } 
 
 section.modulo h2{
@@ -51,13 +48,14 @@ section.modulo h2{
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
+    
    
     
 }
 
 section.modulo.content{
     padding: 40px 0;
-    background: rgba(231, 182, 136, 0.849);;
+    background: rgba(191, 162, 135, 0.849);;
 }
 
 section.modulo.parallax{
@@ -81,6 +79,7 @@ section.modulo.parallax h1{
     text-transform: uppercase;
     z-index: 50;
     text-shadow: 5px 5px 5px #181717;
+    font-family: 'Hind', sans-serif;
 }
 
 section.modulo.parallax::after{
@@ -89,7 +88,7 @@ section.modulo.parallax::after{
     width: 100%;
     z-index: 8;
     position: absolute;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0)50%, #000000 100%);
+    background: linear-gradient(to bottom, rgba(34, 32, 32, 0) 0, rgba(35, 20, 3, 0.411) 50%, #1e1002 100%);
 }
 
 
@@ -98,11 +97,11 @@ section.modulo.parallax-1{
 }
 
 section.modulo.parallax-2{
-    background-image: url(https://images.unsplash.com/photo-1530047571531-b08a67958827?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://www.mashed.com/img/gallery/what-is-an-affogato-and-what-does-it-taste-like/l-intro-1621523856.jpg);
 }
 
 section.modulo.parallax-3{
-    background-image: url(https://images.unsplash.com/photo-1512576301712-26fd28feb7fe?q=80&w=1405&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://cdn.pixabay.com/photo/2016/04/20/08/27/iced-latte-1340675_1280.jpg);
 }
 
 @keyframes surgir {
