@@ -1,4 +1,4 @@
-@charset "utf8";
+@charset "utf-8";
 
 body{
     margin: 0;
@@ -23,6 +23,10 @@ h1, h2{
 main{
     display: block;
     background-color: rgb(56, 39, 17);
+}
+
+footer{
+background-color: rgba(191, 162, 135, 0.849);
 }
 
 .container{
@@ -55,7 +59,7 @@ section.modulo h2{
 
 section.modulo.content{
     padding: 40px 0;
-    background: rgba(191, 162, 135, 0.849);;
+    background: rgba(191, 162, 135, 0.849);
 }
 
 section.modulo.parallax{
